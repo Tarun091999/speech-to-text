@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.note-container{
+
+  /* border: 1px solid black; */
+  height: 75vh;
+  width: 25vw;
+  box-shadow: 1px 4px 10px rgba(2, 2, 2, 0.13);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+
+}
+.speech-note{
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+ 
+}
+.note-container-header{
+height: 20%;
+}
+
+.microphone-button{
+  display: inline-block;
+  position: absolute;
+  bottom: 5%;
+  right: 43%;
+
+
+}
+
+.speech-text{
+  text-align: left;
+  padding: 10px;
+  color: rebeccapurple;
+}
+
+
+.loading-div{
+    width: 100%;
+    position: absolute;
+    bottom: 16%;
+}
+
+.loader{
+  margin: auto;
+}
